@@ -6,13 +6,18 @@ img{
   width: 100%;
 }
 
-ul {
+.card_produto {
  display: flex;
  justify-content: space-between;
   padding: 3rem;
 }
 
-li{
+.produto_lista{
   flex-direction: row;
   display: contents;
+}
+
+.sobre_texto{
+  padding: 5rem;
+
 }

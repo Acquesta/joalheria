@@ -1,8 +1,11 @@
 import "./App.css";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "./components/navBar/navBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import NavBar from "./components/navBar/navBar";
+import Footer from "./components/footer/footer";
+
 import Sobre from "./pages/sobre";
 import Home from "./pages/Home";
 import Contato from "./pages/contato";
@@ -19,6 +22,8 @@ function App() {
           <Route path="/contato" element={<Contato/>}/>
         </Routes>
       </BrowserRouter>
+
+      <Footer></Footer>
     </>
   );
 }

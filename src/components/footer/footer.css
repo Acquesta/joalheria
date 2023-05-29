@@ -1,0 +1,30 @@
+.footer{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer p{
+    display: flex;
+    padding: 0 0 2rem 2rem ;
+    align-items: flex-start;
+}
+
+.footer_titulo{
+    padding: 2rem;
+    display: flex;
+    justify-content: left;
+}
+
+.footer_links{
+    margin: 0;
+    padding: 0 0 3rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 15px;
+}
+
+.footer_link a{
+    color: #fff;
+    text-decoration: none;
+}

@@ -43,9 +43,9 @@ export default function Home() {
         </Carousel.Item>
       </Carousel>
       
-      <ul className="card_produto row">
+      <ul className="card_produto">
         {products.map((product) => (
-          <li key={product.id}>
+          <li className="produto_lista" key={product.id}>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={product.img} />
               <Card.Body>
