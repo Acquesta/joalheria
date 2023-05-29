@@ -1,0 +1,22 @@
+{
+    "products": [
+    {
+        "id": 1,
+        "nome": "Bracelete Rigido Tanzania",
+        "img": "https://eadn-wc01-5033995.nxedge.io/cdn/media/catalog/product/cache/1a942c3929dccdfe34e7e4455e02b2ae/i/m/img_6175_q.jpg",
+        "price": 4730
+    },
+    {
+        "id": 2,
+        "nome": "Anel Garra Tanzania",
+        "img": "https://eadn-wc01-5033995.nxedge.io/cdn/media/catalog/product/cache/0d7c92aa72bfb89e01db008dee0b91e2/i/m/img_1106_q.jpg",
+        "price": 5390
+    },
+    {
+        "id": 3,
+        "nome": "Choker Estrela Coexist",
+        "img": "https://eadn-wc01-5033995.nxedge.io/cdn/media/catalog/product/cache/0d7c92aa72bfb89e01db008dee0b91e2/c/h/chokerestrelacoexist_coexistjoias_2__2.jpg",
+        "price": 1900
+    }
+    ]
+}
